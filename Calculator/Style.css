@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+     background: url(https://img.freepik.com/free-vector/abstract-geometric-round-shape-blue-background-design_1017-42785.jpg?t=st=1698670636~exp=1698671236~hmac=793328584100f520e7c6a31c37769c6b07afa1d6a244c8a6a82e6318ac34395c);
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    background-size: cover;
+    
+    
+}
+
+
+.Outmost{
+    backdrop-filter: blur(20px);
+    background-color:#0000003a;
+    /* border: #1b4965 1px solid ; */
+    box-shadow: 1px 1px 50px #000000a9;
+    padding: 2%;
+    max-height: 100%;
+        min-height: 70%;
+    height:80%;
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    gap:5%;
+border-radius: 20px;
+    /* border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to right, purple, blue, darkblue); */
+ 
+}
+
+
+
+.display{
+    display: grid;
+   align-content: end;
+    justify-content: end;
+    padding: 0% 3%;
+    border-bottom: #ffffff69 2px solid;
+/* box-shadow: 0.2px 0.2px 5px #ffffff; */
+    width: 100%;
+    height: 30%;
+    font-size: 2.5rem;
+    color: #ffffff;
+} 
+
+.btndiv{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr;
+    gap: 3%;
+}
+
+.btn{
+    height: 90%;
+    background-color: transparent;
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: 0.2px 0.2px 5px #ffffff;
+    border-style: none;
+    font-size: 2.2rem;
+    padding: 10%;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    
+}
+
+.euals{
+    grid-column: span 2;
+    border-radius: 30px;
+    width: 100%;
+
+}
+
+.btn:hover{
+   transform: scale(1.04);
+   cursor: pointer;
+ 
+}
+.btn:focus{
+    /* border: 4px solid black; */
+}

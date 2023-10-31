@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;0,500;0,700;1,300&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Mohave', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#stick {
+    top: -0.2%;
+    position: fixed;
+    width: 100vw;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+background: linear-gradient(to right, yellow, #f14e69, #e92344);
+    padding: 0.6rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    z-index: 99999;
+}
+
+.icn {
+    width: 0.5rem;
+    height: 0.5rem;
+    display: grid;
+    place-items: center;
+}
+
+#icnbox {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    padding-left: 20%;
+    display: flex;
+    position: sticky;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    top: 6.8%;
+    gap: 20px;
+    width: 100vw;
+    height: 5rem;
+    background-color: #ffffff;
+}
+
+nav img {
+    width: 10%;
+    height: 3rem;
+    object-fit: cover;
+    object-position: center;
+    background-color: #ffb79d;
+
+}
+
+#mobno,
+#email {
+    font-size: 0.8rem;
+    font-family: 'Mohave', sans-serif;
+    font-weight: 200;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    color: #ffffff;
+}
+
+#request {
+    width: 10%;
+    height: 1.8rem;
+    border-radius: 20px;
+    border: 1px #ffffff solid;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+#searchicn {
+    background-color: black;
+    margin-left: 90px;
+    height: 100%;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px;
+    height: 4rem;
+}
+
+#content {
+    height: 90%;
+    background-image: url(images/750px.png);
+
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10%;
+
+}
+
+#vertical {
+    height: 10rem;
+background: linear-gradient(to bottom, yellow, #f14e69, #e92344);
+    width: 5px;
+    margin-top: 20%;
+}
+
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#buttons #readmorebtn,
+#consultreq {
+    height: 2.3rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+}
+
+#consultreq {
+    width: 12rem;
+    border: 1px #ffffff solid;
+}
+
+#readmorebtn {
+    width: 8rem;
+background: linear-gradient(to right, yellow, #f14e69, #e92344);
+}
+
+#textfield {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    font-size: 1.4rem;
+    color: #ffffff;
+
+
+}
+
+#textfield p {
+    font-weight: 100;
+    font-size: 1rem;
+    text-align: justify;
+
+}
+
+#features {
+    background: linear-gradient(to right, yellow, #f14e69,#e92344);
+    padding: 3% 10% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    flex-direction: row;
+
+}
+
+#features div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    width: 30%;
+    color: #ffffff; 
+}
+.card i{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: solid #ffffff 2px;
+    display: grid;
+    place-items: center;
+}
+
+.cardinner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.txtdiv{
+    margin-left: 10%;
+}
+
+
+
+#readmorebtn:hover, #consultreq:hover, #redonly:hover,#request:hover{
+    transform: scale(1.05);
+    
+    cursor: pointer;
+}
+
+#About{
+    padding: 3% 10%;
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+}
+
+#horizontal{
+   margin-top: -3%;
+    width: 20%;
+    background: linear-gradient(to right, yellow, #f14e69, #e92344);
+    height: 3px;
+}
+
+#txtcontent{
+    width: 50%;
+    display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        align-content: space-around;
+        gap: 20px;
+       
+}
+
+#photodiv {
+width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#photodiv img{
+    height: 23rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+#redonly
+{  height: 2rem;
+width: 6rem;
+    background: linear-gradient(to right, yellow, #f14e69, #e92344);
+    border-style: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+#ourservices{
+    display: flex;
+    flex-direction:column;
+    align-content: space-around;
+    background-color: #e6e6e6;
+   
+    padding: 2% 5%;
+    width: 100%;
+}
+#inner{
+    display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    margin: 0% 15%;
+}
+
+#ourservices h1
+{display: flex;
+    flex-direction: column;
+    align-content: space-around;
+     margin-bottom: 5%;
+    font-size: 2rem;
+        font-weight: 400;
+   
+}
+#ourservices h1::after{
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, yellow, #f14e69, #e92344);
+
+}
+
+.servCard h2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#sect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 2%;
+    gap: 5%;
+   
+        
+}
+
+.servCard{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  align-items: end;
+
+}
+
+.intro{
+    position:relative;
+   top: -10%;
+    z-index: 99;
+    display: flex;
+        flex-direction: row;
+       justify-content: space-evenly;
+       gap: 31%;
+       border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+   background-color: #ffffff;
+   width: 80%;
+    padding: 2% 0%;
+   padding-left: 2%;
+  
+   height: 20%;
+box-shadow: -2px -2px 9px #303030;
+}
+.headtag{
+    position: absolute;
+  color: #ffffff;
+    display: grid;
+    place-items: center;
+    top: -7%;
+    left: -3%;
+width: 20%;
+height: 130%;
+border-radius: 50%;
+background: linear-gradient(to right, yellow, #f14e69, #e92344);
+
+}
+
+#ourservices img{
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.servCard{
+position: relative;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
